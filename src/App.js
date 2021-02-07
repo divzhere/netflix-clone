@@ -1,10 +1,15 @@
-import "./styles.css";
+import "./styles/rows.css";
+import Row from "./components/Row";
+import requests from "./util";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Row
+        title={"Netflix Originals"}
+        fetchUrl={requests.fetchNetflixOriginals}
+      />
+      <Row title={"Trending Now"} fetchUrl={requests.fetchTrending} />
     </div>
   );
 }
