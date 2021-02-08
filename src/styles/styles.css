@@ -1,4 +1,8 @@
+* {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  background-color: #111;
 }
