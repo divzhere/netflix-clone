@@ -1,12 +1,18 @@
-import Row from "./components/Row";
 import requests from "./util";
+
 import "./styles/rows.css";
 import "./styles/styles.css";
 import "./styles/banner.css";
+import "./styles/nav.css";
+
+import Row from "./components/Row";
+import Nav from "./components/Nav";
 import Banner from "./components/Banner";
+
 export default function App() {
   return (
     <div className="App">
+      <Nav />
       <Banner />
       <Row
         title={"Trending Now"}

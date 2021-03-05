@@ -9,10 +9,12 @@
   "main": "src/index.js",
   "dependencies": {
     "axios": "0.21.1",
+    "movie-trailer": "2.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.0"
+    "react-scripts": "4.0.0",
+    "react-youtube": "7.13.1"
   },
   "devDependencies": {
     "typescript": "4.1.3"
